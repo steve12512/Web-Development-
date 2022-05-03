@@ -5,12 +5,30 @@
             <title>
                 Hello, this is Iasis. - KLEISIMO RANTEVOU
             </title>
+            <link rel="stylesheet" type="text/css" href="css.css">
         </head>
         <body>   
             <h1>
-                <b>KLEISIMO RANTEVOU</b>
+                <b>Κλείσιμο ραντεβού</b>
                 <img src= "iasis.png" alt= "iasisLogo" >
             </h1>
+            <p> 
+                Συμπληρώστε το ΑΦΜ σας: <br> 
+                <input type="text" name="AFM" id="AFM" placeholder="ΑΦΜ"><br>
+                Επιλέξτε ημερομηνία ραντεβού:
+                <br>
+                <input type="number" name="Μέρα" id="μερα" placeholder="Μέρα" min="1" max="31" step="1">
+                <input type="number" name="Μήνα" id="μηνα" placeholder="Μήνα" min="1" max="12" step="1">
+                <input type="number" name="Έτος" id="ετος" placeholder="Έτος" min="2022" max="2030" step="1">
+                
+                <br>
+                Επιλέξτε ώρα ραντεβού:
+                <br>
+                <input type="number" name="ώρα" id="ωρα" placeholder="Ώρα" min="00" max="24" step="1">
+                <input type="number" name="λεπτά" id="λεπτα" placeholder="Λεπτά" min="0" max="59" step="1">
+                <br> <br>
+                <input type="button" id="mybutton" value="Αποθήκευση ραντεβού">
+            </p>
             <hr>
             <p> <a href=iasis_arxikh.html>Go back to main Menu</a> </p>
         </body>
